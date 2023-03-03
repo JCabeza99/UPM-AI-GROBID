@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "upm-ai-grobid"
+version = "0.1.0"
+description = ""
+authors = ["JCabeza99 <jaime.cabeza99@gmail.com>"]
+readme = "README.md"
+packages = [{include = "upm_ai_grobid"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
