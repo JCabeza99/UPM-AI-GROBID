@@ -8,7 +8,9 @@ packages = [{include = "upm_ai_grobid"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-grobid-client = "^0.8.3"
+requests = "^2.28.2"
+wordcloud = "^1.8.2.2"
+matplotlib = "^3.7.1"
 
 
 [build-system]
