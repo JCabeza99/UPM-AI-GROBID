@@ -20,7 +20,7 @@ def getAbstract(root):
 
 
 # Set grobid URL
-grobid_url = "http://localhost:8070/api/processHeaderDocument"
+grobid_url = "http://localhost:8070/api/processFulltextDocument"
 
 # Search for any PDF file in the input folder
 input_path = "INPUT/"
@@ -34,5 +34,4 @@ for pdf_file in pdf_files:
     root = ET.fromstring(response.content)
     abstract = getAbstract(root)
     wordcloud = WordCloud().generate(abstract)
-    plt.imshow(wordcloud)
-    plt.savefig("img")
+    
