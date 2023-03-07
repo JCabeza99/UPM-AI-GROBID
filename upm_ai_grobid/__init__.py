@@ -102,7 +102,7 @@ for pdf_file in pdf_files:
     
 # Create the histogram plot
 plt.bar(x_axis, figures)
-plt.title('Histograma de las figuras encontradas')
+plt.title('Grapgh of the figures found in each paper')
 
 figure_name = "figure.png"
 plt.savefig(figure_name)
@@ -115,6 +115,14 @@ with open("output.html", "w") as html:
     html.write(output)
     
 pdfkit.from_file("output.html", f"report-{now}.pdf", configuration= config, options={"enable-local-file-access": ""})
+
+os.remove("output.html")
+
+image_files = glob.glob(os.path.join("./", "*.png"))
+
+for image in image_files:
+    os.remove(image)
+
 
 
     
