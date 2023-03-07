@@ -52,6 +52,9 @@ input_path = "INPUT/"
 # Get all the PDF files inside the input folder
 pdf_files = glob.glob(os.path.join(input_path, "*.pdf"))
 
+if(len(pdf_files) == 0):
+    raise Exception("There are no files inside de input folder")
+
 # Hold the number of figures per article
 figures = []
 paper = 1
