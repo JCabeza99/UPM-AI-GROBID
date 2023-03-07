@@ -23,6 +23,7 @@ def getAbstract(root: ET.Element):
             for abstractElem in element.iter():
                 if (abstractElem.tag == '{http://www.tei-c.org/ns/1.0}p'):
                     return abstractElem.text
+    return ""
 
 def getfigures(root: ET.Element):
     result = 0
