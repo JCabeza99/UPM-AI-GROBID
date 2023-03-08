@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python .mama_papers.py
+python mama_papers.py
