@@ -6,6 +6,6 @@ nav:
   - License: 'license.md'
   - Workflow: 'workflow.md'
   - Execution guide: 'execution.md'
-  - Rationale: 'rationale.md'
+  - Validation: 'rationale.md'
 
 theme: readthedocs
