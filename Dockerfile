@@ -8,8 +8,8 @@ RUN apt-get update
 
 RUN apt-get install -y wkhtmltopdf
 
-RUN pip install -r docs/requirements.txt
+RUN pip install -r requirements.txt
 
 VOLUME /UPM-AI-GROBID/INPUT/
 
-ENTRYPOINT [ "python", "upm_ai_grobid/mama-papers.py" ]
+ENTRYPOINT [ "sh", "./run.sh" ]
