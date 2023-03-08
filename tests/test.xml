@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bus Arrival Time Prediction Using RBF Neural Networks Adjusted by Online Data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2014-07">2014-07</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Lei</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Traffic and Transportation Engineering</orgName>
+								<orgName type="institution">Dalian Jiaotong University</orgName>
+								<address>
+									<addrLine>No. 794 Huanghe Road, Shahekou District</addrLine>
+									<postCode>116028</postCode>
+									<settlement>Dalian</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhongyi</forename><surname>Zuo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Traffic and Transportation Engineering</orgName>
+								<orgName type="institution">Dalian Jiaotong University</orgName>
+								<address>
+									<addrLine>No. 794 Huanghe Road, Shahekou District</addrLine>
+									<postCode>116028</postCode>
+									<settlement>Dalian</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Junhao</forename><surname>Fu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Navigation College</orgName>
+								<orgName type="institution" key="instit2">Dalian Maritime University</orgName>
+								<address>
+									<addrLine>1 Linghai Road</addrLine>
+									<postCode>116026</postCode>
+									<settlement>Dalian</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bus Arrival Time Prediction Using RBF Neural Networks Adjusted by Online Data</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Procedia - Social and Behavioral Sciences</title>
+						<title level="j" type="abbrev">Procedia - Social and Behavioral Sciences</title>
+						<idno type="ISSN">1877-0428</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">138</biblScope>
+							<biblScope unit="page" from="67" to="75"/>
+							<date type="published" when="2014-07" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">6F3B1A95D492F4A6F4619D1EF74B09C1</idno>
+					<idno type="DOI">10.1016/j.sbspro.2014.07.182</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2023-03-08T21:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Intelligent Transportation</term>
+					<term>Arrival Time Prediction</term>
+					<term>RBFNN</term>
+					<term>Public Transport</term>
+					<term>System Design</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper proposes an approach combining historical data and real-time situation information to forecast the bus arrival time. The approach includes two phases. Firstly, Radial Basis Function Neural Networks (RBFNN) model is used to learn and approximate the nonlinear relationship in historical data in the first phase. Then, in the second phase, an online oriented method is introduced to adjust to the actual situation, which means to use the practical information to modify the predicted result of RBFNN in the first phase. Afterwards, the system designing outline is given to summarize the structure and components of the system. We did an experimental study on bus route No.21 in Dalian by deploying this system to demonstrate the validity and effectiveness of this approach. In addition, Multiple Linear Regression model, BP Neural Networks and RBFNN without online adjustment are used in contrast. Results show that the approach with RBFNN and online adjustment has a better predicting performance.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>
