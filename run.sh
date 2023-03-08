@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python mama_papers.py
+python ./upm_ai_grobid/mama_papers.py
