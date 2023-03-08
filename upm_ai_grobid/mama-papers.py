@@ -44,7 +44,7 @@ def getLinks(root: ET.Element):
 
 
 # Set grobid URL
-grobid_url = "http://localhost:8070/api/processFulltextDocument"
+grobid_url = "http://grobid:8070/api/processFulltextDocument"
 
 # Search for any PDF file in the input folder
 input_path = "INPUT/"
@@ -106,7 +106,7 @@ for pdf_file in pdf_files:
     
 # Create the histogram plot
 plt.bar(x_axis, figures)
-plt.title('Grapgh of the figures found in each paper')
+plt.title('Graph of the figures found in each paper')
 
 figure_name = "figure.png"
 plt.savefig(figure_name)
@@ -118,7 +118,7 @@ output += histogram_template.render(histogram_content)
 with open("output.html", "w") as html:
     html.write(output)
     
-pdfkit.from_file("output.html", f"report-{now}.pdf", configuration= config, options={"enable-local-file-access": ""})
+pdfkit.from_file("output.html", f"./OUTPUT/report-{now}.pdf", configuration= config, options={"enable-local-file-access": ""})
 
 os.remove("output.html")
 

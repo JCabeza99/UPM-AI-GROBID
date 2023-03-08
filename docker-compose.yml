@@ -1,0 +1,15 @@
+services:
+
+  grobid:
+    image: lfoppiano/grobid:0.7.2 
+    ports:
+      - 8070:8070
+
+  client:
+    build: .
+    image: grobid-client 
+    depends_on:
+      - grobid
+    volumes:
+      - ./INPUT:/UPM-AI-GROBID/INPUT
+      - ./OUTPUT:/UPM-AI-GROBID/OUTPUT
