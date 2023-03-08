@@ -8,7 +8,7 @@ RUN apt-get update
 
 RUN apt-get install -y wkhtmltopdf
 
-RUN pip install -r requirements.txt
+RUN pip install -r docs/requirements.txt
 
 VOLUME /UPM-AI-GROBID/INPUT/
 
