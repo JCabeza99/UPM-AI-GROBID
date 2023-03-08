@@ -8,7 +8,7 @@ RUN apt-get update
 
 RUN apt-get install -y wkhtmltopdf
 
-RUN pip install -r requirements.txt
+RUN pip install -r docker_requirements.txt
 
 VOLUME /UPM-AI-GROBID/INPUT/
 
