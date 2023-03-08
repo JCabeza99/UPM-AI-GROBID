@@ -1,7 +1,7 @@
 mkdocs >= 1.2.2
 certifi==2022.12.7
 charset-normalizer==3.0.1
-contourpy==1.0.7
+contourpy==1.0.6
 cycler==0.11.0
 fonttools==4.38.0
 idna==3.4
