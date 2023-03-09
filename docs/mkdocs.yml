@@ -1,11 +1,11 @@
 site_name: UPM-AI-GROBID
 
 nav:
-  - Home: 'index.md'
-  - Introduction: 'introduction.md'
-  - License: 'license.md'
-  - Workflow: 'workflow.md'
-  - Execution guide: 'execution.md'
-  - Validation: 'rationale.md'
+  - Home: 'index.rst'
+  - Introduction: 'introduction.rst'
+  - License: 'license.rst'
+  - Workflow: 'workflow.rst'
+  - Execution guide: 'execution.rst'
+  - Validation: 'rationale.rst'
 
 theme: readthedocs
