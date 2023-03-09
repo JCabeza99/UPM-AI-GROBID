@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: UPM-GROBID-CLIENT
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jaime
+    family-names: Cabeza Expolio
+    email: jaime.cabeza99@gmail.com
+repository-code: 'https://github.com/JCabeza99/UPM-AI-GROBID'
+url: 'https://upm-ai-grobid.readthedocs.io'
+abstract: >-
+  PM-AI-GROBID is a project dedicated to the creation of a
+  simple python client that generates a report using the
+  grobid service
+keywords:
+  - Grobid
+  - Grobid-client
+  - Python3
+  - Python3.10
+license: Apache-2.0
+commit: 627990e17f2a826bdd64a9d3dfb31486fb7b9854
+version: 1.0.0
+date-released: '2023-03-09'
