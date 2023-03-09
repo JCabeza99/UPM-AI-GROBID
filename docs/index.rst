@@ -1,8 +1,8 @@
-Home
+AI-UPM-GROBID
 ====
 
 .. toctree::
-    :caption: Home
+    :caption: AI-UPM-GROBID
 
     home
     license
