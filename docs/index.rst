@@ -1,13 +1,11 @@
 Home
 ====
 
-Welcome to AI-UPM-GROBID!
+.. toctree::
+    :caption: Home
 
-Index
-=====
-
--  `Introduction <introduction.md>`__
--  `License <license.md>`__
--  `Project’s workflow <workflow.md>`__
--  `Execution guide <execution.md>`__
--  `Rationale <rationale.md>`__
+    home
+    license
+    workflow
+    execution
+    rationale
