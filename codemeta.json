@@ -1,0 +1,30 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/Apache-2.0",
+    "codeRepository": "https://github.com/JCabeza99/UPM-AI-GROBID/",
+    "dateCreated": "2023-03-01",
+    "datePublished": "2023-03-09",
+    "dateModified": "2023-03-09",
+    "downloadUrl": "https://github.com/JCabeza99/UPM-AI-GROBID/archive/refs/tags/v.1.0.0.tar.gz",
+    "name": "UPM-AI-GROBID",
+    "version": "1.0.0",
+    "description": "My software is a simple grobid client that generates a report from the input files",
+    "programmingLanguage": [
+        "Python3.10.6"
+    ],
+    "operatingSystem": [
+        "Linux"
+    ],
+    "softwareRequirements": [
+        "https://github.com/kermitt2/grobid"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jaime",
+            "familyName": "Cabeza Expolio",
+            "email": "jaime.cabeza99@gmail.com"
+        }
+    ]
+}
