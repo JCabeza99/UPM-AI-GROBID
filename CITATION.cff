@@ -11,6 +11,10 @@ authors:
   - given-names: Jaime
     family-names: Cabeza Expolio
     email: jaime.cabeza99@gmail.com
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7709956
+    description: zenodo
 repository-code: 'https://github.com/JCabeza99/UPM-AI-GROBID'
 url: 'https://upm-ai-grobid.readthedocs.io'
 abstract: >-
