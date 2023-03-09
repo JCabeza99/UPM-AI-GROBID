@@ -6,6 +6,6 @@ Welcome to AI-UPM-GROBID!
 
 * [Introduction](introduction.md)
 * [License](license.md)
-* [Project's workflow](workflow/)
-* [Execution guide](installation)
+* [Project's workflow](workflow.md)
+* [Execution guide](execution.md)
 * [Rationale](rationale.md)
