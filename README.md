@@ -7,5 +7,3 @@ generated at the end of the report.
 For the installation and requirements please check the [Step by step guide](https://upm-ai-grobid.readthedocs.io/en/latest/execution.html)
 
 
-cff codemeta read the docs y zeno workflow
-
